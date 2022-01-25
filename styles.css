@@ -1,0 +1,55 @@
+#main
+{
+    display: flex;
+    align-items:center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+body 
+{
+    background-color: #f7f7f7;
+}
+
+#image 
+{
+    max-width: 100%;
+}
+#img-div
+{
+    text-align: center;
+    width:50%;
+  
+}
+#tribute-info
+{   
+    flex: 1;
+    padding: 20px 20px 50px 20px;
+    border-width: 5px;
+    border-right-style: solid;
+    font-family:sans-serif;
+    text-align:end;
+}
+#challenge
+{
+    border-top-style:ridge;
+    border-width: 10px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    font-family:cursive;
+}
+.floatR
+{
+    width: auto;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 25%;
+}
+.floatL
+{
+    float:left;
+    width: auto;
+    text-align:center;
+    padding-left: 25%;
+    padding-right: 20%;
+}
